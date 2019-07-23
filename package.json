@@ -20,13 +20,13 @@
   },
   "homepage": "https://github.com/jameskolce/hapi-example#readme",
   "dependencies": {
-    "boom": "^3.1.2",
-    "dotenv": "^2.0.0",
-    "hapi": "^13.3.0",
-    "joi": "^8.0.5",
-    "mongojs": "^2.3.0"
+    "dotenv": "^8.0.0",
+    "@hapi/boom": "^7.4.2",
+    "@hapi/hapi": "^18.3.1",
+    "@hapi/joi": "^15.1.0",
+    "mongojs": "^2.6.0"
   },
   "devDependencies": {
-    "nodemon": "^1.9.1"
+    "nodemon": "^1.19.1"
   }
 }

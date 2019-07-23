@@ -1,5 +1,5 @@
-FROM node:6
-MAINTAINER James Kolce <contact@jameskolce.com>
+FROM node:12.6.0-alpine
+MAINTAINER Justin Bell <4Justin.Bell@gmail.com>
 
 RUN mkdir -p /usr/api
 COPY . /usr/api
